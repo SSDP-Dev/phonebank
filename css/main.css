@@ -28,7 +28,7 @@ th {
 
 /* Typography */
 h1 {
-  color: #136F8D;
+  color: #136F8D!important;
   font-family: 'Montserrat';
   text-transform: uppercase;
 }
