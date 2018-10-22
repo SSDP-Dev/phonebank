@@ -50,7 +50,7 @@
         </div><!-- /.container-fluid -->
       </nav>
       <div class="container">
-<h1>Coming soon!</h1>
+
 <footer>
   <p>&copy; Students for Sensible Drug Policy 2018</p>
 </footer>
@@ -71,8 +71,6 @@
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-2468346-19','auto');ga('send','pageview');
   </script>
-  
-  <script src="js/leaderboard.js"></script>
 
 </body>
 </html>
