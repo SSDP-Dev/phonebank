@@ -88,7 +88,7 @@ foreach ($final_array as $row) {
 
 $leaderboard_values = array_count_values($agents_array);
 arsort($leaderboard_values);
-echo("<h1>" . count($agents_array) . " Calls Made</h1>");
+echo("<h1>Leaderboard (updated daily)</h1>");
 echo('<table>');
 echo("<tr>");
 echo('<th>Name</th>');
