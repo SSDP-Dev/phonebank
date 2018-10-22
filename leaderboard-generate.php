@@ -87,12 +87,12 @@ foreach ($final_array as $row) {
 
 
 $leaderboard_values = array_count_values($agents_array);
-// $leaderboard_values = rsort($leaderboard_values);
+arsort($leaderboard_values);
 echo("<h1>" . count($agents_array) . " Calls Made</h1>");
-echo('<table id="myTable2">');
+echo('<table>');
 echo("<tr>");
-echo('<th onclick="sortTable(0)">Name</th>');
-echo('<th onclick="sortTable(1)">Calls Made</th>');
+echo('<th>Name</th>');
+echo('<th>Calls Made</th>');
 echo("</tr>");
 
 foreach ($leaderboard_values as $key => $value) {
